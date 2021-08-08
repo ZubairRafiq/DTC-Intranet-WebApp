@@ -1,0 +1,198 @@
+    .App {
+        text-align: left;
+    }
+    
+    .App-logo {
+        height: 40vmin;
+        pointer-events: none;
+    }
+    
+    @media (prefers-reduced-motion: no-preference) {
+        .App-logo {
+            animation: App-logo-spin infinite 20s linear;
+        }
+    }
+    
+    .App-header {
+        background-color: #282c34;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+    }
+    
+    .App-link {
+        color: #61dafb;
+    }
+    
+    @keyframes App-logo-spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    body {
+        background: #3C464B;
+    }
+    
+    .dtc_button {
+        color: black;
+        background: silver;
+        height: 140px;
+        width: 280px;
+        margin: 30px;
+        border-style: ridge;
+        border-width: 1px;
+        box-shadow: 4px 4px 15px #0e0501;
+    }
+    
+    .suchen {
+        background-color: rgb(145, 177, 177);
+        height: 100%;
+        width: 100%;
+        border: 2px solid;
+    }
+    
+    .liste {
+        background-color: rgb(145, 177, 177);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .listeInput {
+        font-size: 15px;
+        width: 130px;
+        border-color: #0d0d0e;
+        box-shadow: 2px 2px 10px #181615;
+        margin: 2vh;
+    }
+    
+    .graph {
+        background-color: rgb(60, 70, 75);
+        height: 70vh;
+        width: 100%;
+        border: 2px solid;
+    }
+    
+    .graph1 {
+        background-color: rgb(60, 70, 75);
+        height: 90vh;
+        width: 100%;
+        border: 2px solid;
+    }
+    
+    .label {
+        background-color: rgb(113, 131, 153);
+        width: 100%;
+        color: rgb(12, 0, 0);
+        border-radius: 10px;
+        border-color: black;
+        padding: 10px;
+        text-align: center;
+        font-size: 2vh;
+    }
+    
+    .label1 {
+        background-color: rgb(204, 173, 37);
+        width: 23vh;
+        color: rgb(14, 15, 15);
+        border-radius: 5px;
+        padding: 5px;
+        text-align: left;
+        font-size: 2vh;
+        box-shadow: 2px 2px 10px #0e0501;
+    }
+    
+    .label2 {
+        background-color: rgb(204, 173, 37);
+        width: 23vh;
+        color: rgb(14, 15, 15);
+        border-radius: 5px;
+        padding: 5px;
+        font-size: initial;
+        box-shadow: 2px 2px 10px #0e0501;
+        margin-left: 2vh;
+    }
+    
+    .dtcinput {
+        font-size: 15px;
+        width: 55%;
+        border-color: #0d0d0e;
+        box-shadow: 3px 2px 10px #0e0501;
+    }
+    
+    .dtcinput:hover {
+        background-color: rgb(197, 206, 206);
+    }
+    
+    .input {
+        font-size: 14px;
+        width: 100px;
+        border-color: #0d0d0e;
+        box-shadow: 2px 2px 10px #181615;
+    }
+    
+    .input:hover {
+        background-color: rgb(197, 206, 206);
+    }
+    
+    .input1 {
+        font-size: 15px;
+        width: 370px;
+        border-color: #0d0d0e;
+        box-shadow: 2px 2px 10px #0e0501;
+    }
+    
+    .input1:hover {
+        background-color: rgb(197, 206, 206);
+    }
+    
+    .sub_button {
+        margin-left: 15px;
+        width: 100px;
+        color: black;
+        font-size: 15px;
+        border-color: #0d0d0e;
+    }
+    
+    .feedback {
+        background-color: rgb(145, 177, 177);
+        width: 33.333%;
+        height: 100vh;
+        border: 2px solid;
+    }
+    
+    .vergleich {
+        background-color: rgb(145, 177, 177);
+        width: 33.333%;
+        height: 100vh;
+        border: 2px solid;
+    }
+    
+    .box-field {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .box-fieldIn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .navbar {
+        background-color: #FFB900;
+    }
+
+    .custom-select {
+        position: relative;
+        font-family: Arial;
+        width: 15rem;
+      }
